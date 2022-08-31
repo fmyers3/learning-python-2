@@ -1,3 +1,7 @@
+aws_services = []
+
+print(len(aws_services))
+
 aws_services = ['EC2', 'Python', 'Lambda']
 
 print(aws_services)
