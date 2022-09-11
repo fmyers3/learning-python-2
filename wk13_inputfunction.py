@@ -17,3 +17,6 @@ instance_characters = (string.ascii_letters + string.digits)
 instance_unique_name = ''.join(random.sample(instance_characters, 5))
 
 print(instance_unique_name)
+
+print(instance_department, end=" ")
+print("unique identification " + instance_unique_name + ". ", end=" ")
